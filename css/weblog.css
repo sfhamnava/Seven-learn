@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'callibri';
+    src: url('../fonts/calibri.ttf') 
+  }
+  body{
+      font-family: callibri;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.all{
+    width: 100%;
+    background-color: #f4f7f7;
+}
+
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 8%;
+   
+}
+body{
+    overflow-x: hidden;
+}
+nav .img
+{
+    width: 120px;
+ 
+
+}
+nav .search{
+    display: flex;
+    position: absolute;
+    top: 30px;
+    left: 70px;
+    padding: 5px 10px;
+    
+  
+}
+.search .login{
+    margin: 7px 50px ;
+    
+}
+
+.search .login .worod{
+   padding: 13px 30px 12px 40px;
+   border-radius: 10px;
+    background: #f4dd9b; 
+    position: relative;
+    text-decoration: none;
+    color: black;
+}
+.search .login .worod:hover{
+    background-color: #fcd48c;
+}
+
+.search .login .aozweit{
+    text-decoration: none;
+    margin-right: -20px;
+    background: #f7c737;
+    border-radius: 10px;
+   padding: 10px 20px ;
+   position: absolute;
+   top: -0.1px;
+    color: black;
+}
+.search .login .aozweit:hover{
+    background-color: #ffd34f;
+    cursor: pointer;
+}
+.search .srch{
+    background: #fff;
+    align-items: center;
+    padding: 13px;
+    border-radius: 11px;
+    color: gray;
+    font-size: 20px;
+}
+.search .srch:hover{
+    color: lightgray;
+}
+nav .a{
+    text-align: center;
+   margin-left: 550px;
+}
+nav ul{
+    float: right;
+    margin-right: 35px;
+    margin-top: 35px;
+    display: block;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 40px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(55, 58, 70)
+}
+nav ul li a:hover{
+    color: #007bec;
+}
+nav .a ul li .dora{
+    border: 1px solid #1d2d3d;
+    padding: 13px;
+    border-radius: 16px;
+    transition: .2s;
+}
+nav .a ul li .dora:hover{
+    background: #1d2d3d;
+    color: #fff;
+}
+nav .a ul li .dora .fa{
+ padding-left: 4px;
+}
+nav .a ul li .d .fa{
+    padding-right: 4px;
+}

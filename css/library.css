@@ -1,0 +1,349 @@
+@font-face {
+    font-family: 'callibri';
+    src: url('../fonts/calibri.ttf') 
+  }
+  body{
+      font-family: callibri;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+.all{
+background-color: #eef3f8;
+padding-bottom: 300px;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 8%;
+   
+}
+body{
+    overflow-x: hidden;
+}
+nav .img
+{
+    width: 120px;
+ 
+
+}
+nav .search{
+    display: flex;
+    position: absolute;
+    top: 30px;
+    left: 70px;
+    padding: 5px 10px;
+    
+  
+}
+.search .login{
+    margin: 7px 50px ;
+    
+}
+
+.search .login .worod{
+   padding: 13px 30px 12px 40px;
+   border-radius: 10px;
+    background: #f4dd9b; 
+    position: relative;
+    text-decoration: none;
+    color: black;
+}
+.search .login .worod:hover{
+    background-color: #fcd48c;
+}
+
+.search .login .aozweit{
+    text-decoration: none;
+    margin-right: -20px;
+    background: #f7c737;
+    border-radius: 10px;
+   padding: 10px 20px ;
+   position: absolute;
+   top: -0.1px;
+    color: black;
+}
+.search .login .aozweit:hover{
+    background-color: #ffd34f;
+    cursor: pointer;
+}
+.search .srch{
+    background: #fff;
+    align-items: center;
+    padding: 13px;
+    border-radius: 11px;
+    color: gray;
+    font-size: 20px;
+}
+.search .srch:hover{
+    color: lightgray;
+}
+nav .a{
+    text-align: center;
+   margin-left: 550px;
+}
+nav ul{
+    float: right;
+    margin-right: 35px;
+    margin-top: 35px;
+    display: block;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 40px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(55, 58, 70)
+}
+nav ul li a:hover{
+    color: #007bec;
+}
+nav .a ul li .dora{
+    border: 1px solid #1d2d3d;
+    padding: 13px;
+    border-radius: 16px;
+    transition: .2s;
+}
+nav .a ul li .dora:hover{
+    background: #1d2d3d;
+    color: #fff;
+}
+nav .a ul li .dora .fa{
+ padding-left: 4px;
+}
+nav .a ul li .d .fa{
+    padding-right: 4px;
+}
+
+/* nav finished */
+
+.container{
+    margin-top: 100px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+.container h2{
+    font-size: 35px;
+    padding: 10px;
+    margin: 15px;
+    color: #007bec;
+}
+.container .text-p{
+font-size: 20px;
+color: #007bec;
+}
+.container img{
+    margin:  89px 0 40px;
+    width: 700px;
+}
+.container .search{
+transform: translateY(50%);
+border-radius: 10px;
+position: relative;
+display: flex;
+flex-wrap: wrap;
+align-items: stretch;
+width: 700px;
+margin: auto;
+padding: 20px;
+margin-bottom: 70px;
+background-color: #fff;
+overflow: hidden;
+}
+.container .search input{
+    float: right;
+    position: relative;
+    flex: 1 1 auto;
+    width: 1%;
+    min-width: 0;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+::placeholder{
+    font-size: 20px;
+}
+.container .search button {
+    border: none;
+    background: white;
+}
+.container .search button i{
+    font-size: 25px;
+    color: gray;
+}
+.container .col-xxl-10{
+    width: 900px;
+    background-color: #fff;
+    margin:  30px auto;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+.blog-book-page-card{
+    text-decoration: none;
+    display: flex;
+}
+.blog-book-page-card img{
+  width: 420px;
+  margin-right: 25px;
+  margin-top: 20px;
+  transition: ease-in-out .5s;
+}
+.blog-book-page-card img:hover{
+    transform: translateY(15px);
+    transition: .5s;
+}
+.box{
+    width: 500px;
+    padding: 20px;
+    margin-right: 20px;
+}
+.blog-book-page-card .box .title-srt{
+font-size: 20px;
+color: #000;
+transition: ease-in-out .2s;
+}
+.blog-book-page-card .box .title-srt:hover{
+    color: #007bec;
+}
+.blog-book-page-card .box .desc{
+    width: 290px;
+    margin-right: 20px;
+    margin-top: 50px;
+    color: rgb(163, 160, 160);
+    line-height: 40px;
+}
+.blog-book-page-card .box .info{
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+    margin-top: 45px;
+}
+.blog-book-page-card .box .info .item i{
+    margin-left: 5px;
+    color: #007bec;
+}
+.blog-book-page-card .box .info .more-item:hover{
+    color: #007bec;
+}
+.blog-book-page-card .box .info .more-item i:hover{
+    background-color: #007bec;
+    color: #fff;
+}
+.blog-book-page-card .box .info .more-item i{
+    margin-right: 5px;
+    padding: 10px;
+    border: 1px solid #007bec;
+    color: #007bec;
+    border-radius: 50%;
+}
+
+/* start footer */
+
+.container-fluid{
+
+margin-top: 50px;
+    width: 100%;
+}
+.container-fluid .links{
+    width: 100%;
+    margin: 0 0 60px 0;
+    margin-right: 80px;
+    font-size: 20px;
+}
+.container-fluid .links a img{
+    width: 50px;
+    margin-bottom:  -20px;
+}
+.container-fluid .links a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: rgb(56, 61, 70);
+}
+.container-fluid .links a:hover{
+    color: #007bec;
+}
+.container-fluid .bio{
+    font-size: 20px;
+    margin-right: 80px;
+    line-height: 40px;
+    padding: 10px;
+}
+.container-fluid .bio p{
+    color: gray;
+}
+.container-fluid .bio p a{
+    text-decoration: none;
+    color: #007bec;
+}
+footer .right{
+    margin-right: 80px;
+    padding: 20px 0;
+    font-size: 20px;
+    line-height: 40px;
+}
+footer .right .mb-0-pb-0{
+    color: rgb(56, 61, 70);
+}
+
+footer .right span{
+font-weight: bold;
+padding: 20px 0;
+color: rgb(56, 61, 70);
+}
+
+footer .right span a{
+    color: rgb(56, 61, 70);
+    text-decoration: none;
+}
+footer .right span a:hover{
+    color: #007bec;
+}
+
+footer .right .icon a{
+    margin: 20px;
+    text-decoration: none;
+    color: rgb(56, 61, 70);
+    font-size: 30px;
+}
+footer .right .icon a:hover{
+color: #007bec;
+}
+
+footer a:hover{
+color: #007bec;
+}
+
+
+footer .left{
+    float: left;
+    display: flex;
+    margin-left: 200px;
+
+
+}
+footer .left .smooth-corners{
+    padding: 20px;
+    background: #f6fafe;
+    margin: 15px;
+    border-radius: 20px;
+}
+footer .left .smooth-corners img{
+    width: 50px;
+    color: rgb(56, 61, 70);
+}
+

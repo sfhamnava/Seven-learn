@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'callibri';
+    src: url('../fonts/calibri.ttf') 
+  }
+  body{
+      font-family: callibri;
+  }
+*{
+ margin: 0;
+ padding: 0;
+}
+.land-header{
+width: 100%;
+height: 100vh;
+background-image: url(../image/wave.jpeg);
+}
+.land-header .navbar .container{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar .container .navbar-nav-right{
+    margin: 40px 100px;
+    display: flex;
+}
+.navbar .container .navbar-nav-right li{
+    list-style-type: none;
+    margin: 20px;
+}
+.navbar .container .navbar-nav-right li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+}
+.navbar .container .navbar-nav-right li a:hover{
+    color: lightblue;
+}
+.navbar .container .navbar-nav-left {
+margin: 55px 100px;
+}
+.navbar .container .navbar-nav-left i a{
+    text-decoration: none;
+    color: rgb(41, 128, 243);
+    font-size: 17px;
+    padding: 17px 25px;
+    border-radius: 20px;
+    font-family: var(--bs-font-sans-serif);
+    background-color: #fff;
+    cursor: pointer;
+
+} 
+.navbar .container .navbar-nav-left i a:hover{
+    background: lightblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
