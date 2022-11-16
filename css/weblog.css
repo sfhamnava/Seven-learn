@@ -203,3 +203,34 @@ border-radius: 50%;
 
 /* finished row header */
 
+
+.flex-row-reverse{
+    margin-top: 50px;
+}
+
+.flex-row-reverse .col-lg-8{
+    display: flex;
+    margin-right: 100px;
+}
+ .col-lg-8 .col-lg-4 .sticky-lg-top ul li{
+     padding: 10px 20px;
+     font-size: 20px;
+     color: #657688;
+     background: #f0f1f4;
+     margin-top: 20px;
+     list-style: none;
+     width: 230px;
+     border-radius: 10px;
+     cursor: pointer;
+}
+.col-lg-8 .col-lg-4 .sticky-lg-top ul li:hover{
+    background-color: #e3e4e7;
+}
+.col-lg-8 .col-lg-4 .sticky-lg-top ul .title{
+    color: #007bec;
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+/* finished flex-row */
+
