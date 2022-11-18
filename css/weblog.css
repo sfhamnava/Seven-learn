@@ -311,12 +311,32 @@ border-radius: 50%;
 .col-lg-8 .blog-sc .alert a{
     text-decoration: none;
     font-size: 20px;
+   color: #1d2d3d;
+}
+.col-lg-8 .blog-sc .alert a:hover{
+    color: #007bec;
+}
+.col-lg-8 .blog-sc .question-answers{
+    margin-top: 100px;
+}
+
+.col-lg-8 .blog-sc .question-answers .acc-title{
+    margin: 20px;
+    font-size: 23px;
+    color: #007bec;
+}
+.col-lg-8 .blog-sc .question-answers .acc-items h4 {
+    margin: 50px 0 15px 0;
+    font-size: 20px;
     color: #007bec;
 }
 
-.col-lg-8 .blog-sc  .question-answers{
-    margin-top: 30px;
-} 
-
-
+.col-lg-8 .blog-sc .question-answers .acc-items  p span{
+    font-size: 20px;
+    color: #1d2d3d;
+}
+.col-lg-8 .blog-sc .question-answers .acc-items p{
+    color: #77889a;
+    font-size: 20px;
+}
 
