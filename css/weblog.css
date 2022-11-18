@@ -237,6 +237,7 @@ border-radius: 50%;
     width: 670px;
     justify-content: center;
     margin-right: 100px;
+    margin-bottom: 200px;
 }
 .col-lg-8 .blog-sc p{
     font-size: 22px;
@@ -340,3 +341,98 @@ border-radius: 50%;
     font-size: 20px;
 }
 
+
+/* start footer */
+
+.container-fluid{
+        width: 100%;
+    }
+    .container-fluid .links{
+        width: 100%;
+        margin: 0 0 60px 0;
+        margin-right: 80px;
+        font-size: 20px;
+    }
+    .container-fluid .links a img{
+        width: 50px;
+        margin-bottom:  -20px;
+    }
+    .container-fluid .links a {
+        margin-left: 25px;
+        text-decoration: none;
+        color: rgb(56, 61, 70);
+    }
+    .container-fluid .links a:hover{
+        color: #007bec;
+    }
+    .container-fluid .bio{
+        font-size: 20px;
+        margin-right: 80px;
+        line-height: 40px;
+        padding: 10px;
+    }
+    .container-fluid .bio p{
+        color: gray;
+    }
+    .container-fluid .bio p a{
+        text-decoration: none;
+        color: #007bec;
+    }
+    footer .right{
+        margin-right: 80px;
+        padding: 20px 0;
+        font-size: 20px;
+        line-height: 40px;
+    }
+    footer .right .mb-0-pb-0{
+        color: rgb(56, 61, 70);
+    }
+    
+    footer .right span{
+    font-weight: bold;
+    padding: 20px 0;
+    color: rgb(56, 61, 70);
+    }
+    
+    footer .right span a{
+        color: rgb(56, 61, 70);
+        text-decoration: none;
+    }
+    footer .right span a:hover{
+        color: #007bec;
+    }
+    
+    footer .right .icon a{
+        margin: 20px;
+        text-decoration: none;
+        color: rgb(56, 61, 70);
+        font-size: 30px;
+    }
+    footer .right .icon a:hover{
+    color: #007bec;
+    }
+    
+    footer a:hover{
+    color: #007bec;
+    }
+    
+    
+    footer .left{
+        float: left;
+        display: flex;
+        margin-left: 200px;
+    
+    
+    }
+    footer .left .smooth-corners{
+        padding: 20px;
+        background: #f6fafe;
+        margin: 15px;
+        border-radius: 20px;
+    }
+    footer .left .smooth-corners img{
+        width: 50px;
+        color: rgb(56, 61, 70);
+    }
+    
+    
