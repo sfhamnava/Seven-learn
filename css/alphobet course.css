@@ -93,17 +93,24 @@ margin: 55px 100px;
 }
 .container2 .left{
     width: 674px;
+    display: block;
     height: 600px;
     background: #075cab;
     border-radius: 50px;
 }
-.container2 .left img{
+.container2 .left .img1{
     width: 150px;
-    padding: 50px;
+    padding: 60px;
     background: #1385ed;
     float: left;
     margin-left: 50px;
     border-radius: 50%;
+}
+.container2 .left .tabs{
+    display: block;
+}
+.container2 .left .img{
+    display: block;
 }
 .container2 .video-box {
     width: 400px;
