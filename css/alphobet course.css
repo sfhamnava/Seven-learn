@@ -105,19 +105,39 @@ margin: 55px 100px;
     float: left;
     margin-left: 50px;
     border-radius: 50%;
+    display: block;
 }
 .container2 .left .tabs{
     display: block;
+    margin-top: 300px;
+    float: left;
+    margin-left: -300px;
 }
-.container2 .left .img{
-    display: block;
+.container2 .left .tabs img{
+    margin: 30px;
+}
+.container2 .left .tabs span{
+    margin: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+.container2 .left .icon-and-text{
+    margin-left: 00px;
+}
+.container2 .left .icon-and-text img{
+    margin-bottom: -18px;
+    margin-left: -5px;
+}
+.container2 .left .icon-and-text h2 {
+  display: inline-block;
+ color: #fff;
 }
 .container2 .video-box {
     width: 400px;
     margin-top: 40px;
     background-color: #fff;
     border-radius: 30px;
-    box-shadow: 0 0 20px #a1cdf7;
+    box-shadow: 0 0 50px #a1cdf7;
     text-align: center;
 }
 
