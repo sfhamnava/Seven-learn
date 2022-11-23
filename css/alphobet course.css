@@ -148,13 +148,135 @@ margin: 55px 100px;
     border-radius: 30px;
 }
 
+.land-sc-need{
+    margin-top: 20%;
+margin-right: 100px;
+}
+.land-sc-need .mt-4{
+    margin: 40px;
+    font-size: 35px;
+    color: #334a62;
+    margin-right: -10px;
+}
+.land-sc-need .ql-align-justify{
+    font-size: 22px;
+    width: 95%;
+    color: #334a62;
+    line-height: 50px;
+}
+.land-sc-need p{
+    font-size: 22px;
+    width: 95%;
+    color: #334a62;
+    line-height: 50px;
+}
+
+.land-sc-need .ql-align-right{
+     font-size: 22px;
+    margin: 20px;
+} 
+.land-sc-need .ql-align-right a{
+    text-decoration: none;
+    color: #1385ed;
+}
+.land-sc-need h2 , h3{
+    margin-top: 40px;
+}
+
+/* container */
 
 
 
 
+.container3{
+    margin-top: 15%;
+}
+.container3 .land-sc-list{
+   width: 60%;
+   padding: 40px;
+    margin: auto;
+   display: flex;
+   border-radius: 30px;
+   background: #fff;
+}
+.container3 .land-sc-list .col-xl-3{
+    width: 260px;
+    height: 220px;
+  background: #fff;
+  box-shadow: 0 0  1px #334a62;
+    margin-right: -120px;
+    border-radius: 20px;
+    margin-top: -120px;
+    position: absolute;
+}
+.container3 .land-sc-list .col-xl-3 .box {
+    margin-right: 50px;
+    font-size: 24px;
+    line-height: 40px;
+}
+.container3 .land-sc-list .col-xl-3 .box i{
+    font-size: 80px;
+    margin-right: 90px;
+    color: #5aae1b;
+}
+.container3 .land-sc-list .col-xl-3 .box h4 span{
+color: #5aae1b;
+}
+.container3 .land-sc-list .col-xl-10{
+    font-size: 20px;
+    color: #334a62;
+    margin-right: 200px;
+}
+.container3 .land-sc-list .col-xl-10 li{
+    padding: 10px;
+    list-style: none;
+}
+.container3 .land-sc-list .col-xl-10 li i{
+    padding: 10px;
+    font-size: 15px;
+}
+/* container4 */
+.container4{
+    margin-top: 30px;
+}
+.container4 .land-sc-list{
+    width: 60%;
+    padding: 40px;
+     margin: auto;
+    display: flex;
+    border-radius: 30px;
+    background: #fff;
+ }
+ .container4 .col-xl-10{
+    font-size: 20px;
+    color: #334a62;
+    margin-right: 200px;
+ }
+ .container4 .land-sc-list .col-xl-10 li{
+    padding: 10px;
+    list-style: none;
+}
 
-
-
-
-
-
+.container4 .col-lg-4{
+    width: 260px;
+    height: 240px;
+    box-shadow: 0 0 1px #334a62;
+    margin-left: -200px;
+    margin-top: -100px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+.container4 .col-lg-4 .box{
+    margin-top: 20px;
+    margin-right: 50px;
+    font-size: 25px;
+}
+.container4 .col-lg-4 .box i{
+    font-size: 100px;
+    margin-right: 80px;
+    margin-top: -20px;
+    color: #f0b5b5;
+}
+.container4 .col-lg-4 .box h4 span{
+    color: #d94745;
+}
