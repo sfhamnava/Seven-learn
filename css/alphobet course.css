@@ -280,3 +280,59 @@ color: #5aae1b;
 .container4 .col-lg-4 .box h4 span{
     color: #d94745;
 }
+
+
+/* ------------ssection2 start--------------- */
+
+.section2{
+    background: #f2f8fe;
+}
+.section2 .row{
+    background-color: #e9eef4;
+    position: relative;
+    width: 73%;
+    padding: 30px;
+    margin-top: 100px;
+    float: left;
+    border-radius: 40px;
+    color: #1b77e7;
+}
+
+.section2 .row h3{
+    font-size: 30px;
+    margin-left: 20px;
+}
+.section2 .row h3 span{
+  margin-right: 100px;
+    font-size: 22px;
+}
+.section2 .row-boxs{
+    margin-top: 100px;
+    display: flex;
+    width: 100%;
+   margin-right: -180px;
+}
+.section2 .row-boxs .box-right{
+    margin-left: 30px;
+    overflow-y: auto;
+    height: 200px;
+    width: 900px;
+    padding: 30px 22px 40px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+.section2 .row-boxs .box-right .content {
+    margin-top: 40px;
+}
+.section2 .row-boxs .box-right .content p{
+    font-size: 20px;
+    line-height: 30px;
+}
+.section2 .row-boxs .box-left{
+    overflow-y: auto;
+    height: 200px;
+    width: 900px;
+    padding: 30px 22px 40px;
+    border-radius: 20px;
+    background-color: #fff;
+}
